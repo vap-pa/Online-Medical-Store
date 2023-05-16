@@ -1,0 +1,85 @@
+@charset "UTF-8";
+ *{
+            padding: 0;
+            margin: 0px;
+
+        }
+        body{
+            background-color: aliceblue;
+        }
+       
+       
+        nav,a{
+            background-color: rgba(0, 0, 255, 0.678);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 90px;
+        }
+        .fl1{
+            margin-left: 160px;
+        }
+        input[type=search]{
+            width: 5px;
+            height: 5px;
+            
+        }
+        input[type=search]{
+            width: 450px;
+            height: 40px;
+            margin-left: 20px;
+        }
+        button{
+            margin-left: 5px;
+            width: 120px;
+            height: 35px;
+        }
+        .more,.cart{
+            background-color: rgba(33, 20, 214, 0.075);
+            color: white;
+            border: 0;
+            font-size: 20px;
+            width: 80px;
+            
+        }
+        .first-row{
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            cursor: pointer;
+            box-shadow: 5px 10px rgba(255, 255, 255, 0.815);
+            
+        }
+        .fr{
+            color: black;
+            font-weight: bold;
+            border: 0;
+            font-size: 16px;
+        }
+        .se-row{
+            display: flex;
+            margin-top: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            cursor: pointer;
+            box-shadow: 5px 10px rgba(255, 255, 255, 0.815);
+        }
+        .im{
+            width: 100px;
+            height: 100px;
+        }
+        .im2{
+            width: 150px;
+            height: 150px;
+        }
+        button{
+            color: blue;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        img:hover{
+            /*transform: scale(1.5);*/
+            transform: rotateY(180deg);
+        }
